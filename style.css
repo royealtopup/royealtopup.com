@@ -1,5 +1,33 @@
-.page { width: 100%; height: 100vh; }
-.admin-sidebar { width: 200px; background: #333; color: white; float: left; height: 100%; }
-.admin-nav-item { padding: 15px; cursor: pointer; border-bottom: 1px solid #444; }
-.admin-nav-item:hover { background: #555; }
-.content-section { padding: 20px; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a; /* গাঢ় ব্যাকগ্রাউন্ড */
+    color: white;
+}
+
+#login-page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
